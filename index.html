@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>MikZakaryan</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="all_header_menu">
+            <div class="logo">
+                <h1>MikZakaryan</h1>
+            </div>
+            <div class="top_menu">
+                <ul>
+                    <li><a href="#">Обо мне</a></li>
+                    <li><a href="#">Изученные предметы</a></li>
+                    <li><a href="signIn.html">Войти</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Основное наполнение -->
+    <img src="me.jpg" alt="">
+    <div class="maintxt">
+        Я, Закарян Михаил Арманович, студент группы 221-362 Московского Политехнического Университета. Моё направление
+        Прикладная Информатика по специальности Корпоративные Информационные Системы (КИС).
+        За первый год обучения я изучил:
+    </div>
+    <table>
+        <tr class="mtr">
+            <td>№</td>
+            <td>Предмет</td>
+            
+            <td>Преподаватель</td>
+        </tr>
+        <tr>
+            <td class="mtr">1</td>
+            <td>Основы программирования</td>
+            <td>Харченко Е.А.</td>
+        </tr>
+        <tr>
+            <td class="mtr">2</td>
+            <td>Базы Данных</td>
+            <td>Харченко Е.А.</td>
+        </tr>
+        <tr>
+            <td class="mtr">3</td>
+            <td>Основы тестирования</td>
+            <td>Логачев М.С.</td>
+        </tr>
+        <tr>
+            <td class="mtr">4</td>
+            <td>Электронный документооборот</td>
+            <td>Смирнова Ю.В.,Кулибаба И.В.</td>
+        </tr>
+        <tr>
+            <td class="mtr">5</td>
+            <td>Сети и телекоммуникации</td>
+            <td>Копылов Г.Н, Осьмин В.В.</td>
+        </tr>
+    </table>
+     <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4> <a href="#"></a>mikzakaryan@mail.ru</h4>
+                </div>
+                <div class="footer-col">
+                    <h4> <a href="#"></a>89115000070</h4>
+                </div>
+                <div class="footer-col">
+                    <h4> <a href="#"></a>Закарян Михаил</h4>
+                </div>
+                <div class="footer-col">
+                    <h4> <a href="#"></a>Московский Политехнический университет</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Формы -->
+    <div class="feedback">
+        <H3>Обратная связь</H3>
+        <form action="http://httpbin.org/post" method="post">
+            <!-- ФИО -->
+            <div class="form-group">
+                <label for="fullName">Ваше ФИО</label>
+                <input id="fullName" type="text" name="fullName" placeholder="Введите ФИО">
+            </div>
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Почта</label>
+                <input id="email" type="email" name="email" placeholder="Введите почту">
+            </div>
+            <!-- Откуда узнали -->
+            <div class="form-group">
+                <label for="radio">Откуда узнали о нас?</label>
+                <input type="radio" name="source" value="Интернет"> Интернет
+                <input type="radio" name="source" value="Друзья"> Друзья
+            </div>
+            <!-- SELECT -->
+            <div class="form-group">
+                <select name = "type">
+                    <option value = "Жалоба">Жалоба</option>
+                    <option value = "Предложение">Предложение</option>
+                  </select>
+            </div>
+            <!-- TEXTAREA -->
+            <div class="form-group">
+                <textarea placeholder="Текст сообщения" name="message"></textarea>
+            </div>
+            <!-- FILE -->
+            <div class="form-group">
+                <input type="file" name="attachment">
+            </div>
+            <!-- CHECKBOX -->
+            <div class="form-group">
+                <label for="radio">Даю согласие на обработку данных</label>
+                <input type="checkbox" name="consent" required>
+            </div>
+            <!-- BUTTON -->
+            <div class="form-group">
+                <button class="btn" type="submit">Отправить</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

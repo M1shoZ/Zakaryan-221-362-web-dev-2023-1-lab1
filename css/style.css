@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    columns: white;
+}
+.sign {
+    background: black;
+    columns: white;
+    background-image: url('../CAT.jpeg');
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo,
+.top_menu {
+    display: inline-block;
+}
+
+.top_menu li {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+
+.top_menu a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+.top_menu a:hover {
+    color: rgb(13, 183, 183);
+}
+
+.logo h1 {
+    margin-right: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+.logo a {
+    margin-right: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 200px 0 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: rgb(25, 54, 84);
+    padding: 20px 0;
+
+}
+
+.footer {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer-col {
+    width: 20%;
+}
+
+.maintxt {
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    margin: -270px 650px 0 500px;
+    margin-bottom: 130px;
+}
+
+img {
+    width: 200px;
+    margin: 20px 230px 0 880px;
+}
+
+table {
+    color: white;
+    margin: 20px 540px;
+    width: 500px;
+    height: 200px;
+    background: rgba(35, 65, 94, 0.779);
+    border-spacing: 5px;
+    border: 16px;
+}
+
+td {
+    background: black;
+}
+
+.mtr {
+    font-size: 18px;
+    padding: 10px;
+}
+/* Авторизация */
+.signIn {
+    /* background-image: url(../FWCj-XEC-9Y.jpg);
+    background-size: cover; */
+    text-align: center  ;
+    color: white;
+    font-size: 25px;
+    padding: 0 auto;
+    padding-top: 150px;
+    margin-top: 5px;
+}
+.form-group {
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+.signIn h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.signIn input{
+    font-size: inherit;
+}
+ .btn {
+    color: inherit;
+    display: block;
+    height: 40px;
+    width: 150px;
+    margin: 0 auto;
+    background-color: rgb(13, 183, 183);
+    border: 1px solid rgb(white);
+    border-radius: 5px ;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Авторизация  /\ */
+/* Авторизация  || */
+
+/* Feedback */
+.feedback{
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: antiquewhite;
+    text-align: center;
+}
+textarea{
+    width: 305px; 
+    height: 169px;
+}
+.form-group{
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
